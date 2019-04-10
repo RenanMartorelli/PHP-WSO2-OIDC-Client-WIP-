@@ -65,7 +65,7 @@ através da chave pública do IdP. Se estiver incorreto a autenticação
 
 
 // biblioteca necessária para rodar funções relacionadas ao JWT, baixar via composer
-require 'vendor/autoload.php';
+require '../../autoload.php';
 use \Firebase\JWT\JWT;
 
 class OauthSSO {

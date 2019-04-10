@@ -2,7 +2,7 @@
 
 namespace jwksConverter;
 // biblioteca necessária para rodar funções relacionadas ao JWT, baixar via composer
-require 'vendor/autoload.php';
+require '../../autoload.php';
 use \Firebase\JWT\JWT;
 
 
