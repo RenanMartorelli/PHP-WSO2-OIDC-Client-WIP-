@@ -3,12 +3,14 @@
     "description": "Funções para realizar SSO com Oauth2 usando o WSO2 Identity Server como provedor de identidade",
     "type": "library",
     "require": {
-        "firebase/php-jwt": "^5.0"
     },
+    "authors": [
+        {
+            "name": "Renan Martorelli",
+            "email": "renanmartorelli2@gmail.com"
+        }
+    ],
     "minimum-stability": "dev",
-    "require-dev": {
-        "firebase/php-jwt": "^5.0"
-    },
     "autoload": {
         "psr-0": {
             "OauthSSO": "./",
